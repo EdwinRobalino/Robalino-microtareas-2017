@@ -29,12 +29,14 @@
             android:id="@+id/btnTarea1"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:onClick="startClase1"
             android:text="Tarea 1" />
 
         <Button
             android:id="@+id/btnTarea2"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:onClick="startClase2"
             android:text="Tarea 2" />
     </LinearLayout>
 </RelativeLayout>

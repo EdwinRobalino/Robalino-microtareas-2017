@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.edwin.grupo1.tarea_1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tarea 1: Por medio de un botón, tomar los valores de rating y número de estrellas de un ratingbar y mostrarlo en texto. " />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <RatingBar
+            android:id="@+id/rtbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:rating="3" />
+
+        <Button
+            android:id="@+id/btnContar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contar" />
+
+        <TextView
+            android:id="@+id/txtEstrellas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Num de estrellas" />
+
+    </LinearLayout>
+
+</RelativeLayout>
