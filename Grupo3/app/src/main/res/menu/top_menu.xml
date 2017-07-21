@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/it1"
+        android:title="opcion 1" />
+
+    <item
+        android:id="@+id/it2"
+        android:title="opcion 2" />
+
+    <item
+        android:id="@+id/it3"
+        android:title="opcion 3 + Subs"
+        android:icon="@android:drawable/ic_menu_info_details">
+        <menu >
+            <item
+                android:id="@+id/its1"
+                android:title="SubOpcion 1" />
+
+            <item
+                android:id="@+id/its2"
+                android:title="SubOpcion 2" />
+
+            <item
+                android:id="@+id/its3"
+                android:title="SubOpcion 3" />
+
+        </menu>
+    </item>
+
+
+</menu>
