@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Grupo3</string>
+    <string name="title_activity_tarea_2">tarea_2</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
 </resources>

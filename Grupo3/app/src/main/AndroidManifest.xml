@@ -17,7 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".tarea_1" />
-        <activity android:name=".tarea_2"></activity>
+        <activity
+            android:name=".tarea_2"
+            android:label="@string/title_activity_tarea_2"></activity>
     </application>
 
 </manifest>
