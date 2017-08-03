@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Grupo_4</string>
+
+    <string-array name="opciones">
+        <item>Op 1: On the rocks</item>
+        <item>OP 2: HAruka Kanata</item>
+        <item>Op 3: MArgin Infe</item>
+    </string-array>
+</resources>

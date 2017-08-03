@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.edwin.grupo_4.tarea_1">
+
+    <LinearLayout
+        android:id="@+id/lTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tarea 1: Crear un AlertDialog que contenga una lista y muestre en pantalla un texto con el objeto seleccionado." />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lContenido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_below="@id/lTitulo"
+        android:layout_marginTop="20sp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="lista"
+            android:text="Dialog" />
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
